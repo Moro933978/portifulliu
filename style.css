@@ -355,10 +355,8 @@ p{
     padding-bottom: 10px;
     color: #ffffff;
     -o-border-radius: 8px;
-    background: linear-gradient(45deg,
-        #5c258d
-        ,
-        #001d27);
+    background-color: transparent;
+    border: 3px solid white;
     text-align: center;
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -webkit-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -431,10 +429,11 @@ i{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 20px;
+    justify-content: center;
+    padding-left: 15px;
+    width: auto;
+    padding-right: 15px;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -442,8 +441,8 @@ i{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     text-align: center;
+    -o-border-radius: 20px;
 }
 
 @media (max-width: 768px) {
